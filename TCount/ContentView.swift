@@ -10,10 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "clock")
+                .resizable()
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .frame(width: 100, height: 100)
+            Text("타임카운트에 오신것을 환영합니다!")
+                .bold()
+                .font(.system(size: 20))
+            Text("당신을 위한 시간 기록 & 관리 앱")
         }
         .padding()
     }
