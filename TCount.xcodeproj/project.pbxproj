@@ -40,6 +40,7 @@
 		AB78C10E2A1BB25700F6991B /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		AB78C1112A1BB3C700F6991B /* TimerMakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerMakeView.swift; sourceTree = "<group>"; };
 		AB78C1192A1C788600F6991B /* TimerWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerWorking.swift; sourceTree = "<group>"; };
+		AB78C11B2A1D04BE00F6991B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ABF77BF92A0FEA300024B770 /* TCount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCount.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF77BFC2A0FEA300024B770 /* TCountApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCountApp.swift; sourceTree = "<group>"; };
 		ABF77BFE2A0FEA300024B770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		ABF77BF02A0FEA300024B770 = {
 			isa = PBXGroup;
 			children = (
+				AB78C11B2A1D04BE00F6991B /* README.md */,
 				ABF77BFB2A0FEA300024B770 /* TCount */,
 				ABF77BFA2A0FEA300024B770 /* Products */,
 			);
@@ -480,6 +482,8 @@
 				DEVELOPMENT_TEAM = C552WQXUWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "왓타임";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,6 +513,8 @@
 				DEVELOPMENT_TEAM = C552WQXUWD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "왓타임";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
