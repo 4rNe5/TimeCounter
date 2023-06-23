@@ -16,17 +16,17 @@ struct ContentView: View {
                   Image(systemName: "clock.badge")
                   Text("타이머")
                 }
-              Text("최근 카운트한 타이머 기록보기")
+              Text("최근 카운트한 타이머 기록을 보여주는 뷰")
                 .tabItem {
                   Image(systemName: "list.bullet.circle")
                   Text("기록")
               }
-              Text("사용자 정보")
+              Text("사용자 정보를 보여주는 뷰")
                 .tabItem {
                   Image(systemName: "person.circle.fill")
                   Text("정보")
                 }
-            Text("설정")
+            Text("설정을 보여주는 뷰")
               .tabItem {
                 Image(systemName: "ellipsis.circle.fill")
                 Text("설정")
